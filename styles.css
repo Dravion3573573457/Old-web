@@ -1,0 +1,109 @@
+body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    margin: 2%;
+    padding: 0;
+    background-image: url('waterere.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+nav {
+    text-align: center;
+    background-color: #f0f0f0ad;
+    padding: 1px;
+    border-radius: 8px;
+    margin-bottom: 2px;
+}
+
+nav a {
+    display: inline-block;
+    margin-right: 10%;
+    text-decoration: none;
+    color: #333;
+}
+
+header {
+    background-color: #f0f0f0cb;
+    border-radius: 8px;
+    padding: 1%;
+    margin-bottom: 1%;
+}
+
+article {
+    background-color: #f9f9f9ad;
+    border: double #c4c4c4;
+    padding: 1%;
+    border-radius: 8px;
+    margin-bottom: 3%;
+}
+
+.water-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 6%;
+}
+
+.water-item img {
+    max-width: 20%;
+    max-height: 20%;
+    margin-right: 3%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1%;
+}
+
+th,
+td {
+    border: 1px solid #007e7e91;
+    padding: 8px;
+    text-align: left;
+}
+
+nav .button {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+nav .button a {
+    margin: 1px 1px;
+    padding: 1px 2px;
+    background-color: #bef8f096;
+    border-radius: 2%;
+    text-decoration: none;
+    color: #333;
+    transition: background-color 0.3s ease;
+    flex-basis: 0;
+    flex-grow: 1;
+    text-align: center;
+}
+
+nav .button a:hover {
+    background-color: #ddd;
+}
+
+@media (max-width:425px) {
+    body {
+        margin: 0%;
+    }
+
+    table {
+        margin-left: -40px;
+    }
+}
+
+@media (max-width:320px) {
+    body {
+        margin: 0%;
+    }
+
+    table {
+        margin-left: -55px;
+    }
+}
